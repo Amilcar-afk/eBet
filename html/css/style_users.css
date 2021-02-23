@@ -1,0 +1,118 @@
+body{
+  margin:0px;
+  background-color: #F5F1ED;
+}
+th{
+  border:solid;
+  background-color: #40739e;
+}
+td{
+  border:solid;
+  background-color: white;
+}
+
+#info{
+  margin:0 auto;
+  width:400px;
+  text-align: center;
+}
+
+#info > table{
+  text-align: center;
+}
+
+#info > h1{
+  text-align: center;
+}
+
+#share{
+  text-decoration: none;
+  margin-left:5px;
+  border-radius: 3px;
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:white;
+  background-color:#54a0ff;
+}
+#share:hover{
+  text-decoration: none;
+  color:black;
+}
+
+h2{
+  color: #40739e;
+  text-align: center;
+}
+
+#add_fav{
+  text-decoration: none;
+  margin-left:5px ;
+  border-radius: 3px;
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f1c40f;
+  color:white;
+}
+#add_fav:hover{
+  text-decoration: none;
+  color:black;
+}
+.bet_link{
+  background-color:#40739e;
+  color:white;
+  border-radius: 3px;
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+.bet_link:hover{
+  color: black;
+  text-decoration: none;
+}
+#unfollow{
+  text-decoration: none;
+  border-radius: 3px;
+  padding:10px;
+  color:white;
+  background-color:#c0392b;
+}
+#unfollow:hover{
+  text-decoration: none;
+  color:black;
+  border: solid 1.5px;
+}
+
+#div_bet{
+  margin:0 auto;
+  width:400px;
+  text-align: center;
+}
+
+#follow{
+  text-decoration: none;
+  border-radius: 3px;
+  padding:10px;
+  color:white;
+  background-color:#54a0ff;
+}
+
+#follow:hover{
+  text-decoration: none;
+  color:black;
+}
+#ban{
+  text-decoration: none;
+  margin-left: 20px;
+  border-radius: 3px;
+  padding:10px;
+  background-color: #FDA7DF;
+  color:white;
+}
+#ban:hover{
+  text-decoration: none;
+  color:black;
+  border:solid 2px;
+}

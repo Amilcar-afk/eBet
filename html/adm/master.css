@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Regular.ttf') format('ttf');
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Bold.ttf') format('ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Light.ttf') format('ttf');
+    font-weight: lighter;
+}
+
+* {
+    font-family: 'Oxygen';
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  width:10px
+}
+
+::-webkit-scrollbar-track{
+  background:#cccccc;
+  border-radius:05px
+}
+::-webkit-scrollbar-thumb{
+  background:#c0c0c0;
+  border-radius:05px
+}
+
+header {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #F5F1ED;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+li > a {
+  color: #011638;
+  margin: 60px;
+  align-self: center;
+}
+
+li > a:hover {
+  font-weight: bold;
+  color: #2E294E;
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.form-control::placeholder {
+  font-weight: bold;
+}
+
+.form-control {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.btn {
+  margin-top: 5px;
+}
+
+.nav-item {
+  height: 130px;
+}
+
+.tab-pane {
+  width: 100%;
+}
+
+.table {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.header-text-container-l {
+  list-style: none;
+  margin-right: 9px;
+  display: inline-block;
+}
+
+.header-text-container-r {
+  list-style: none;
+  margin-right: 9px;
+  display: inline-block;
+  float: right;
+}

@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Regular.ttf') format('ttf');
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Bold.ttf') format('ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Light.ttf') format('ttf');
+    font-weight: lighter;
+}
+
+* {
+    font-family: 'Oxygen';
+}
+
+body {
+    margin: 0;
+    background-color: #F5F1ED;
+}
+
+
+#ebetlogo {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 165px;
+}
+
+#ulcss {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.licss {
+    display: inline-block;
+    list-style: none;
+}
+
+.acss {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.inputcss::placeholder {
+    margin: 5px;
+    font-family: 'Oxygen';
+    font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin: 2em;
+  font-size: 45px;
+  text-transform: uppercase
+}
+
+form>input {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+form>select {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+#button {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 12px;
+  padding: 1em
+}
+
+main {
+  max-width: 1024px;
+  align-self: center;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,332 @@
+@font-face {
+  font-family: 'Oxygen';
+  src: url('fonts/Oxygen-Regular.ttf') format('ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  src: url('fonts/Oxygen-Bold.ttf') format('ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  src: url('fonts/Oxygen-Light.ttf') format('ttf');
+  font-weight: lighter;
+}
+
+*{
+  font-family: 'Oxygen';
+}
+
+#menu-vertical, #menu-vertical ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  width: 180px;
+}
+
+#menu-vertical /*> li*/ {
+  background-color:#70798C;
+}
+
+#menu-vertical > li {
+  background-color:#70798C;
+}
+
+
+#menu-vertical a {
+  display:block;
+  text-decoration: none;
+  color: white;
+}
+
+/*//////*/
+
+li > a{
+  text-align: center;
+  text-decoration: none;
+}
+#menu-vertical a:hover{
+  color: black;
+}
+
+#menu-vertical{
+	width: 10%;
+	height: 50px;
+  position: fixed;
+  top: 0;
+  left:0;
+
+}
+.replay{
+  padding-bottom: 40px;
+}
+
+img{
+	width:18%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu{
+	width: 100%;
+  padding-top: 13%;
+  padding-bottom: 5px;
+}
+hr{
+  border:solid 1.5px;
+  color: white;
+  margin-left: 10px;
+
+}
+body{
+  margin: 0px;
+}
+main{
+  margin-left: 10%;
+  max-width: 100%;
+  background-color: #F5F1ED;
+  padding-top: 50px;
+}
+html, body{
+  background-color: #F5F1ED;
+}
+
+
+header{
+  border:solid 1px;
+  background-color: #F5F1ED;
+  padding-bottom:65px;
+  margin-top: 0px;
+}
+
+.avatar{
+  float:left;
+}
+
+.div_img{
+  padding-left: 200px;
+  padding-top: 70px;
+}
+
+.div_inputs{
+  margin-left: 500px;
+}
+
+.ul1{
+  padding-left: 60px;
+  display: inline-block;
+  border:1px solid;
+}
+.ul2{
+  padding-left: 60px;
+  display: inline-block;
+  border:1px solid;
+}
+
+li{
+  list-style: none;
+}
+#button{
+  width:62%;
+  margin-left: 80px;
+  color: white;
+  background-color: #C5EEB2;
+  border: solid black 1px;
+}
+
+.notification{
+  width : 2%;
+  float: right;
+  display: block;
+  padding-top: 10px;
+}
+
+#search{
+  float: right;
+  border-radius: 10px;
+  background-color: #F5F1ED;
+  border: solid black 1px;
+  width:30%;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.loop{
+  position: absolute;
+  width :1%;
+  right:3.2%;
+  top: 4%;
+}
+
+#boy{
+  /*height:50px;*/
+  width:50px;
+  /*position:relative;
+  left:132%;
+  top:12px;*/
+
+}
+
+td,th{
+  width: 150px;
+  border: solid thin black;
+  padding: 0.5em;
+}
+
+th{
+  background-color:#70798C;
+  color: white;
+}
+
+.logo{
+  width:10%;
+  position: absolute;
+  left:10%;
+  bottom: 85%;
+}
+
+#result_search{
+  width:30%;
+  position:absolute;
+  top:6.7%;
+  right:2.9%;
+}
+
+.favourite_stars{
+  display:inline-block;
+}
+
+#favourite_stars{
+  width:5%;
+}
+
+#h1_favourite{
+  color:#f1c40f;
+}
+
+#scroll_div > ul{
+  overflow:auto;
+  height: 100%;
+}
+
+#img_funds{
+  width:25%;
+}
+
+#players{
+  width:25%;
+}
+
+.star, .calendar{
+  width:25%;
+}
+#my_bets{
+  width: 27%;
+}
+#followers, #plus{
+  width:27%;
+}
+
+#delete_share{
+  text-decoration: none;
+  margin-left:5px;
+  border-radius: 3px;
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:white;
+  background-color:#c0392b;
+}
+#delete_share:hover{
+  text-decoration: none;
+  color:black;
+  border: solid 1.5px;
+}
+
+#share{
+  text-decoration: none;
+  margin-left:5px;
+  border-radius: 3px;
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:white;
+  background-color:#54a0ff;
+}
+#share:hover{
+  text-decoration: none;
+  color:black;
+}
+
+.first_team{
+  color:#44bd32;
+}
+.second_team{
+  color:#cd84f1;
+}
+
+
+::-webkit-scrollbar{
+  width:10px
+}
+
+::-webkit-scrollbar-track{
+  background:#cccccc;
+  border-radius:05px
+}
+::-webkit-scrollbar-thumb{
+  background:#535c68;
+  border-radius:05px
+}
+
+#li_boy{
+  width:100%;
+}
+
+#li_boy > a{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+#li_login{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  color:black;
+}
+
+#signout{
+  text-decoration: none;
+}
+#signout:hover{
+  border-radius: 3px;
+  padding:10px;
+  color:black;
+  border: solid 1.5px;
+  background-color:#c0392b;
+}
+
+#notif{
+  width:30%;
+  position:absolute;
+  top:6.7%;
+  right:2.9%;
+}
+
+#mvp{
+  color:#e74c3c;
+}
+
+#podium{
+  width:25%;
+}
+#mvp_bloc{
+  display: inline-block;
+  width:40%;
+}
+

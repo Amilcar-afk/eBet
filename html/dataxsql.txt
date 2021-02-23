@@ -1,0 +1,5 @@
+CREATE TABLE captcha(
+	id_captcha INT PRIMARY KEY AUTO_INCREMENT,
+	linkfolder VARCHAR(100),
+	name VARCHAR(50)
+);

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Regular.ttf') format('ttf');
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Bold.ttf') format('ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Light.ttf') format('ttf');
+    font-weight: lighter;
+}
+
+* {
+    font-family: 'Oxygen';
+}
+
+header{
+    background-color: bisque;
+}
+header>h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    background-color: #F5F1ED;
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+#card{
+    margin: 5px;
+}
+
+main{
+    margin: auto;
+}
+

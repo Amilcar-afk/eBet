@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Oxygen';
+  src: url('fonts/Oxygen-Regular.ttf') format('ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  src: url('fonts/Oxygen-Bold.ttf') format('ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  src: url('fonts/Oxygen-Light.ttf') format('ttf');
+  font-weight: lighter;
+}
+
+*{
+  font-family: 'Oxygen';
+}
+
+body{
+  margin:0px;
+  background-color: #F5F1ED;
+}
+
+header{
+  background-color: #70798C;
+  height: 60px;
+  padding-top: 10px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  width:10%;
+  position: absolute;
+  left:1%;
+  bottom: 85%;
+}
+
+ul{
+  border: solid 1px;
+  width:60%;
+  margin-left: 20%;
+  border-radius: 8px;
+}
+
+ul > li{
+  list-style: none;
+}
+.team_first{
+  color:blue;
+}
+.team_second{
+  color:#cd84f1;
+}
+
+form{
+  width:30%;
+  margin-left:35%;
+  text-align: center;
+  border:solid 1px;
+}
+
+#amount{
+  border-radius: 5px;
+  border:solid black 1px;
+}
+#button{
+  border-radius: 8px;
+  background-color: #8395a7;
+  border:#273c75;
+  width:40%;
+  color: white;
+}

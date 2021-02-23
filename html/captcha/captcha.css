@@ -1,0 +1,92 @@
+input[type=checkbox] {
+    display:none;
+}
+input#img1[type=checkbox]
+{
+    background-image: url("captchaimg/1.jpg");
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+input#img2[type=checkbox]
+{
+    background-image: url("captchaimg/2.jpg");
+    height: 30pxx;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}  
+input#img3[type=checkbox]
+{
+    background-image: url("captchaimg/1.jpg");
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}  
+input#img1[type=checkbox]
+{
+    background-image: url("captchaimg/3.jpg");
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}  
+input#img4[type=checkbox]
+{
+    background-image: url("captchaimg/4.jpg");
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}  
+input#img5[type=checkbox]
+{
+    background-image: url("captchaimg/5.jpg");
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}  
+input#img6[type=checkbox]
+{
+    background-image: url("captchaimg/6.jpg");
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}  
+input#img7[type=checkbox]
+{
+    background-image: url("captchaimg/7.jpg");
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}  
+input#img8[type=checkbox]
+{
+    background-image: url("captchaimg/8.jpg");
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}      
+input#img9[type=checkbox]
+{
+    background-image: url("captchaimg/9.jpg");
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+} 
+
+
+
+#divcss {
+    display: inline-block;
+    border: 2px groove #4CAF50;
+    margin: 0;
+}
+

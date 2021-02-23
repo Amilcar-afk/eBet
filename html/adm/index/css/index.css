@@ -1,0 +1,44 @@
+#hi {
+  text-align: center;
+}
+
+#panel {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+#banContainer {
+  width: 300px;
+  margin: 10px;
+}
+
+#banmail::placeholder {
+  font-weight: bold;
+}
+
+#walletContainer {
+  width: 300px;
+  margin: 10px;
+}
+
+#exportContainer {
+  width: 300px;
+  margin: 10px;
+}
+
+#usrForCash {
+  margin-top: 3px;
+}
+
+#usrForCash::placeholder {
+  font-weight: bold;
+}
+
+#amount::placeholder {
+  font-weight: bold;
+}
+
+#exportContainer {
+  width: 300px;
+  margin: 10px;
+}

@@ -1,0 +1,5 @@
+Require valid-user
+AuthUserFile /var/www/pwd
+AuthType Basic
+AuthName "Please Enter Password"
+

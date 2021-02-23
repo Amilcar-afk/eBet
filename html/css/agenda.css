@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Regular.ttf') format('ttf');
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Bold.ttf') format('ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Light.ttf') format('ttf');
+    font-weight: lighter;
+}
+
+* {
+    font-family: 'Oxygen';
+}
+
+body{
+    margin: 0;
+    background-color: #F5F1ED;
+    
+}
+#title {
+    background-color:#70798C;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.thclass {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#para{
+    text-transform: uppercase;
+}
+
+#cardcss{
+    width: 17rem;
+    background-color: #70798C;
+    border-color: whitesmoke;
+    display: inline-block;
+}
+
+#hone{
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+#link {
+    background-color :#70798C;
+    color: #F5F1ED;
+    border-color: transparent;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+#linkpast {
+    background-color: grey;
+    border-color: transparent;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+#footercss {
+    background-color:#70798C;
+    text-align: center;
+    color: #F5F1ED;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+}
+
+main {
+    margin: 0;
+    align-items: center;
+}
+
+.scroller {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}

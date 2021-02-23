@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Regular.ttf') format('ttf');
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Bold.ttf') format('ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('./fonts/Oxygen-Light.ttf') format('ttf');
+    font-weight: lighter;
+}
+
+* {
+    font-family: 'Oxygen';
+    box-sizing: border-box;
+}
+
+header {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  background-color: #F5F1ED;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+li > a {
+  color: #011638;
+  margin: 60px;
+  align-self: center;
+}
+
+li > a:hover {
+  font-weight: bold;
+  color: #2E294E;
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.form-control::placeholder {
+  font-weight: bold;
+}
+
+.form-control {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.nav-item {
+  height: 130px;
+}
+
+.tab-pane {
+  width: 100%;
+}
+
+.table {
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* DÉBUT DE L'INDEX.PHP */
+#hi {
+  text-align: center;
+}
+
+#panel {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+#banContainer {
+  width: 300px;
+  margin: 10px;
+}
+
+#banmail::placeholder {
+  font-weight: bold;
+}
+
+#walletContainer {
+  width: 300px;
+  margin: 10px;
+}
+
+#usrForCash {
+  margin-top: 3px;
+}
+
+#usrForCash::placeholder {
+  font-weight: bold;
+}
+
+#amount::placeholder {
+  font-weight: bold;
+}
+
+#exportContainer {
+  width: 300px;
+  margin: 10px;
+}
+
+.header-text-container-l {
+  list-style: none;
+  margin-right: 9px;
+  display: inline-block;
+}
+
+.header-text-container-r {
+  list-style: none;
+  margin-right: 9px;
+  display: inline-block;
+  float: right;
+}
+/* FIN DE L'INDEX.PHP */
+
+/* DÉBUT DU BETS.PHP */
+#headerBetContainer {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+.scroll_section{
+  height:500px;
+  overflow: auto;
+}
+/* FIN DU BETS.PHP */

@@ -1,0 +1,45 @@
+#pdp{
+  width:40%;
+}
+#div_data{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width:40%;
+}
+#wallet{
+  color: #f1c40f;
+}
+#strong_log{
+  font-size: 120%;
+}
+
+#modify_data{
+  margin-top: 30px;
+  text-decoration: none;
+}
+#modify_data:hover{
+  text-decoration: none;
+}
+
+#all_block{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#controller{
+  width:40%;
+}
+
+#chat{
+  width:20%;
+  background-color: white;
+  border: solid 1px;
+}
+
+#div_chat{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+

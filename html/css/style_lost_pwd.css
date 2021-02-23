@@ -1,0 +1,47 @@
+/*header*/
+header{
+  background-color: #70798C;
+  height: 60px;
+  padding-top: 10px;
+}
+
+body{
+  margin: 0px;
+}
+
+.ul_header{
+  text-align: right;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: black;
+}
+
+.li1{
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.logo{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 18px;
+}
+/*////////////:*/
+
+/*footer*/
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/*/////*/
+
+body{
+  background-color: #F5F1ED;
+}
